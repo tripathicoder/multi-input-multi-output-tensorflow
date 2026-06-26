@@ -1,7 +1,28 @@
-# Student Performance Prediction
+# Student Performance Predictor
 
-This project demonstrates:
+## Project Overview
+This project uses TensorFlow Functional API to create a Multi-Input Multi-Output Neural Network.
 
-- Multi Input Neural Network
-- Multi Output Neural Network
-- TensorFlow Functional API
+## Inputs
+### Academic Features
+- Hours Studied
+- Attendance
+- Previous Marks
+
+### Personal Features
+- Age
+- Sleep Hours
+- Exercise Hours
+
+## Outputs
+- Exam Score Prediction (Regression)
+- Pass/Fail Prediction (Classification)
+
+## Technologies Used
+- TensorFlow
+- NumPy
+- Pandas
+- Scikit-Learn
+
+## Author
+Shudhanshu Tripathi
